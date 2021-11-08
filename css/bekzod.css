@@ -1,0 +1,15 @@
+.media-logos img {
+    max-width: 100%;
+}
+
+.news-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-header h2 {
+    padding-top: 122px;
+    padding-left: 10px;
+    margin: 0;
+  
+}
