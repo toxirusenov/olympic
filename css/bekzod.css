@@ -1,19 +1,20 @@
-img {
-    max-width: 100%;
-}
 
-.media-wrapper {
+
+.media-wrapper img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
+.news {
+    padding-top: 120px;
+}
+
 .news-header {
     display: flex;
     justify-content: space-between;
-    padding-top: 120px;
-    padding-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .news-header h2 {
@@ -104,6 +105,7 @@ img {
     font-size: 16px;
     color: #363C44;
 }
+
 .news-item-child i,
 .news-item-child small {
     font-style: normal;
