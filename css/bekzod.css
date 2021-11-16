@@ -112,7 +112,7 @@
 .news-item-foto {
     flex: 0 0 134px;
     max-width: 134px;
-    padding-bottom: 27px;
+    height: 100px;
 }
 
 .news-item-soon {
@@ -153,23 +153,23 @@
     width: 100%;
     height: 100%;
     border-bottom: 1px solid #ECECEC;
+    padding-bottom: 30px;
 }
 
-.body-more-info {
-    display: inline;
-    padding: 10px 25px;
-    height: 39px;
+.body-more-info a {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    justify-content: center;
+    padding: 0px 25px;
+    height: 40px;
     border: 1px solid #6190D7;
     box-sizing: border-box;
     border-radius: 3px;
-}
-
-.body-more-info span {
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     color: #0754C8;
+    text-decoration: none;
 
 }
 
