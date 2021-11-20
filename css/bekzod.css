@@ -1,4 +1,233 @@
+<<<<<<< HEAD
 .media .media-wrapper {
+=======
+/*header*/
+.header .container{
+    max-width: 1519px;
+}
+.header-wrapper {
+    max-width: 100%;
+    height: 140px;
+}
+
+.header-logo {
+    width: 100%;
+    align-items: center;
+    padding: 12px 22px 12px 22px;
+    display: flex;
+    background: linear-gradient(180deg, #E9EEF5 0%, rgba(233, 238, 245, 0) 100%);
+}
+
+.header-logo-info {
+    margin-left: 35px;
+}
+
+.header-logo-info h2 {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    color: #363C44;
+    text-align: start;
+}
+
+.header-logo-info ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.header-logo-info ul li:not(:last-child) {
+    margin-right: 25px;
+}
+
+.header-logo-info ul li {
+
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #929DAD;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 15px;
+    display: flex;
+    border-bottom: 1px solid #E9EDF3;
+}
+
+.header-function {
+    margin-bottom: 21px;
+    display: flex;
+}
+
+.header-function ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.header-lang{
+    display: flex;
+    align-items: center;
+}
+.header-lang ul{
+    margin-left: 67px;
+   
+}
+.header-lang ul li  {
+    font-size: 16px;
+    line-height: 19px;
+    color: #929DAD;
+}
+
+.header-lang li i {
+    margin-right: 10px;
+}
+
+.header-function li:not(:last-child) {
+    margin-right: 40px;
+}
+
+.header-search {
+    margin-left: 100px;
+    
+}
+
+.header-function li a {
+    margin-left: 6px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #929DAD;
+}
+
+
+.header-bottom {
+    padding-top: 20px;
+}
+
+.header-bottom-info ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*header*/
+
+/*banner*/
+
+.banner {
+    margin-bottom: 100px;
+}
+
+.banner {
+    background-image: url('../image/bekzod.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    height: 800px
+}
+
+.banner-header {
+    padding-bottom: 111px;
+}
+
+.banner::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(30, 28, 28, 0.5) 0%, rgba(30, 28, 28, 0.5) 33.29%, rgba(27, 24, 24, 0.75) 100%);
+    z-index: -1;
+}
+
+.banner-header-item span i {
+    margin-right: 10px;
+}
+
+.banner-header-item {
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+}
+
+.banner-header-item span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.banner-header-item h2 {
+    padding-bottom: 40px;
+    font-style: 700;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.banner-header-item a {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    justify-content: center;
+    padding: 0px 25px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #0754C8;
+    text-decoration: none;
+}
+
+.banner-header-item a small {
+    color: #FFFFFF;
+}
+
+.banner-body-item {
+    opacity: 0.6;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    padding: 24px 24px 24px 24px;
+    width: 100%;
+    height: 180px;
+}
+
+.banner-body-item-header span {
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+.banner-body-item-header {
+    display: flex;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.banner-body-item-header i {
+    margin-right: 10px;
+}
+
+.banner-body-item-info {
+    margin-top: 18px;
+    color: #FFFFFF;
+}
+
+/*banner*/
+
+.media .media-wrapper {
+    width: calc(100% / 12 * 12);
+>>>>>>> d8e865ea41399d1fc92901bbb2e1da77c8882fbf
     background: #FFFFFF;
     box-shadow: 0px 2px 8px rgb(157 165 185 / 20%);
     border-radius: 1px;
