@@ -4,7 +4,7 @@
 }
 .header-wrapper {
     max-width: 100%;
-    height: 140px;
+ 
 }
 
 .header-logo {
@@ -16,6 +16,7 @@
 }
 
 .header-logo-info {
+ 
     margin-left: 35px;
 }
 
@@ -26,8 +27,12 @@
     line-height: 25px;
     color: #363C44;
     text-align: start;
+    padding-bottom: 12px;
+    margin: 0;
 }
-
+.header-logo-info a{
+    text-decoration: none;
+}
 .header-logo-info ul {
     display: flex;
     padding: 0;
@@ -38,8 +43,7 @@
     margin-right: 25px;
 }
 
-.header-logo-info ul li {
-
+.header-logo-info ul li a {
     font-family: 'Museo Sans Cyrl', sans-serif;
     font-weight: 600;
     font-size: 12px;
@@ -103,7 +107,12 @@
     color: #929DAD;
 }
 
-
+.header-bottom ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 20px;
+    color: #363C44;
+}
 .header-bottom {
     padding-top: 20px;
 }
