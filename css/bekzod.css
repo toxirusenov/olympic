@@ -22,6 +22,7 @@
 
 .header-logo-info {
     margin-left: 25px;
+    margin-left: 35px;
 }
 
 .header-logo-info h2 {
@@ -74,7 +75,7 @@
 }
 
 .header-function {
-   
+    display: flex;
     align-items: center;
     justify-content: center;
 
@@ -109,25 +110,31 @@
 }
 
 .header-function li:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 35px;
 }
 
 .header-search {
     margin-left: 100px;
 
 }
-.header-function  ul li a i{
+
+.header-function ul li a i {
     margin-right: 8px;
-   
-} 
+}
+
+.header-function li a i {
+    margin-right: 8px;
+}
+
 .header-function li a {
-   
+
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #929DAD;
 }
+
 
 .header-bottom ul li a {
     text-decoration: none;
@@ -137,7 +144,14 @@
 }
 
 .header-bottom {
-   padding-top: 20px;
+
+    padding-top: 20px;
+
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .header-bottom-info ul {
@@ -204,6 +218,7 @@
 
 .banner-header-item h2 {
     margin-bottom: 40px;
+    font-style: 700;
     font-weight: 700;
     font-size: 38px;
     line-height: 140%;
