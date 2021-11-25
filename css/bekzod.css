@@ -1,10 +1,11 @@
 /*header*/
-.header .container{
+.header .container {
     max-width: 1519px;
 }
+
 .header-wrapper {
     max-width: 100%;
- 
+
 }
 
 .header-logo {
@@ -15,9 +16,12 @@
     background: linear-gradient(180deg, #E9EEF5 0%, rgba(233, 238, 245, 0) 100%);
 }
 
+.header-item {
+    display: flex;
+}
+
 .header-logo-info {
- 
-    margin-left: 35px;
+    margin-left: 25px;
 }
 
 .header-logo-info h2 {
@@ -30,9 +34,11 @@
     padding-bottom: 12px;
     margin: 0;
 }
-.header-logo-info a{
+
+.header-logo-info a {
     text-decoration: none;
 }
+
 .header-logo-info ul {
     display: flex;
     padding: 0;
@@ -52,17 +58,26 @@
     color: #929DAD;
 }
 
+.header-left {
+    margin: 20px 0px;
+    margin-left: 32px;
+}
+
 .header-top {
     display: flex;
     align-items: center;
     width: 100%;
-    padding-top: 15px;
-    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
+    flex-direction: column;
     border-bottom: 1px solid #E9EDF3;
 }
 
 .header-function {
-    margin-bottom: 21px;
+   
+    align-items: center;
+    justify-content: center;
+
     display: flex;
 }
 
@@ -71,15 +86,19 @@
     margin: 0;
     padding: 0;
 }
-.header-lang{
+
+.header-lang {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
-.header-lang ul{
+
+.header-lang ul {
     margin-left: 67px;
-   
+
 }
-.header-lang ul li  {
+
+.header-lang ul li {
     font-size: 16px;
     line-height: 19px;
     color: #929DAD;
@@ -95,11 +114,14 @@
 
 .header-search {
     margin-left: 100px;
-    
-}
 
+}
+.header-function  ul li a i{
+    margin-right: 8px;
+   
+} 
 .header-function li a {
-    margin-left: 6px;
+   
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
@@ -113,14 +135,23 @@
     line-height: 20px;
     color: #363C44;
 }
+
 .header-bottom {
-    padding-top: 20px;
+   padding-top: 20px;
 }
 
 .header-bottom-info ul {
+    margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
+}
+
+.header-bottom-info ul li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /*header*/
@@ -138,11 +169,11 @@
     background-position: center;
     position: relative;
     z-index: 1;
-    height: 800px
+    height: 100vh;
 }
 
 .banner-header {
-    padding-bottom: 111px;
+    margin-bottom: 111px;
 }
 
 .banner::after {
@@ -172,13 +203,11 @@
 }
 
 .banner-header-item h2 {
-    padding-bottom: 40px;
-    font-style: 700;
+    margin-bottom: 40px;
     font-weight: 700;
     font-size: 38px;
     line-height: 140%;
     color: #FFFFFF;
-    margin: 0;
 }
 
 .banner-header-item a {
